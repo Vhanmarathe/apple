@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Portfolia - APPLE COMPANY</title>
+ <link
+href="https://fonts.googleapis.com/css2?family=Monts
+errat:wght@400;600;700&display=swap"
+rel="stylesheet">
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html, body {
+ height: 100%;
+ font-family: 'Montserrat', sans-serif;
+ color: #fff;
+ scroll-behavior: smooth;
+ }
+ nav {
+ background-color: rgba(0, 0, 0, 0.7);
+ padding: 15px 30px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 1000;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .logo {
+ font-size: 26px;
+ color: #fff;
+ font-weight: 700;
+ }
+ .menu a {
+ color: #fff;
+ text-decoration: none;
+ margin-left: 25px;
+ font-size: 18px;
+ font-weight: 600;
+ transition: color 0.3s;
+ }
+ .menu a:hover {
+ color: #ffd700;
+ }
+ section {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ background-size: cover;
+ background-position: center;
+ }
+ section::before {
+ content: '';
+ position: absolute;
+ top: 0; left: 0;
+ width: 100%; height: 100%;
+ background: rgba(0, 0, 0, 0.6);
+ z-index: 1;
+ }
+ .section-content {
+ position: relative;
+ z-index: 2;
+ text-align: center;
+ background-color: rgba(255, 255, 255, 0.2);
+ padding: 40px;
+ border-radius: 15px;
+ width: 85%;
+ max-width: 1000px;
+ }
+ h1, h2 {
+ font-size: 36px;
+ font-weight: 700;
+ margin-bottom: 20px;
+ }
+ ul, p {
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 1.8;
+ text-align: left;
+ }
+ ul {
+ list-style-type: none;
+ padding-left: 0;
+ }
+ #home {
+ background-image: url('https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcRiSiItBVNJUGQbLN_-
+i2Golin76VqjnB8Ioh9QzSa9nGSNgrX8YYny19CUbBjb1vj
+TBM&usqp=CAU');
+ }
+ #education {
+ background-image:
+url('https://images.unsplash.com/photo1662946834880-
+99adabd21f80?fm=jpg&q=60&w=3000&ixlib=rb4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXBw
+bGUlMjBpbmN8ZW58MHx8MHx8fDA%3D');
+ }
+ #skills {
+ background-image:
+url('https://s3.amazonaws.com/ppt-
+ct2.crystalgraphics.com/new-york-usa-september6_bdgdxgxyzg_6.5_ws.jpg');
+ }
+ #projects {
+ background-image:
+url('https://www.livemint.com/lmimg/img/2023/07/24/1600x900/Apple_Results_16433
+29934217_1690204874324.jpg');
+ }
+ #experience {
+ background-image:
+url('https://c4.wallpaperflare.com/wallpaper/1024/671
+/622/apple-mac-macintosh-1920x1200-wallpaperpreview.jpg');
+ }
+ #contact {
+ background-image: url('https://is1-
+ssl.mzstatic.com/image/thumb/Purple126/v4/cb/08/41
+/cb0841ec-5d2a-5a29-d3f7-a48a543be872/AppIcon-0-
+0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-
+GLES2_U002c0-512MB-85-220-0-
+0.png/1200x630wa.png');
+ }
+ footer {
+ background-color: #111;
+ color: white;
+ text-align: center;
+ padding: 20px 0;
+ font-weight: 600;
+ }
+ @media (max-width: 768px) {
+ nav {
+ flex-direction: column;
+ align-items: flex-start;
+ }
+ .menu a {
+ display: block;
+ margin: 10px 0;
+ }
+ .section-content {
+ width: 95%;
+ padding: 20px;
+ }
+ }
+ </style>
+</head>
+<body>
+ <nav>
+ <div class="logo">APPLE COMPANY</div>
+ <div class="menu">
+ <a href="#home">Home</a>
+ <a href="#education">About</a>
+ <a href="#skills">Services</a>
+ <a href="#projects">Projects</a>
+ <a href="#experience">Clients</a>
+ <a href="#contact">Contact</a>
+ </div>
+ </nav>
+ <section id="home">
+ <div class="section-content">
+ <h1>Welcome to Apple company</h1>
+ <p>Innovating Tomorrow, Today</p>
+ </div>
+ </section>
+ <section id="education">
+ <div class="section-content">
+ <h2>About Us</h2>
+ <p>Apple Inc.is a multinational technology company
+that designs, manufactures, and markets consumer
+electronics, computer software, and online
+services.</p>
+ </div>
+ </section>
+ <section id="skills">
+ <div class="section-content">
+ <h2>Our Services</h2>
+ <ul>
+ <li>Apple one</li>
+ <li>Apple News+</li>
+ <li>Apple Music</li>
+ <li>Apple TV+</li>
+ <li>Apple books</li>
+ </ul>
+ </div>
+ </section>
+ <section id="projects">
+ <div class="section-content">
+ <h2>Our Projects</h2>
+ <ul>
+ <li>Open source software is at the heart of Apple
+platforms and developer tools.</li>
+<li>Apple manages the following projects and
+encourages your contribution.</li>
+ </ul>
+ </div>
+ </section>
+ <section id="experience">
+ <div class="section-content">
+ <h2>Our Clients</h2>
+ <ul>
+ <li>XYZ Corporation</li>
+ <li>Beyond individual </li>
+ <li>specific product and their appeal</li>
+ <li>key demographics</li>
+ </ul>
+ </div>
+ </section>
+ <section id="contact">
+ <div class="section-content">
+ <h2>Contact Us</h2>
+ <ul>
+ <li><strong>Phone:</strong> +91 7588561075</li>
+ <li><strong>Email:</strong>
+contact@apple.com</li>
+ <li><strong>Address:</strong> Pune, Maharashtra,
+India</li>
+ </ul>
+ <p>We’re always open to innovative ideas and
+collaboration. Let's build something amazing
+together.</p>
+ </div>
+ </section>
+ <footer>
+ <p>&copy; 2025 apple company. All rights
+reserved.</p>
+ </footer>
+</body>
+</html>
